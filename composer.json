@@ -1,0 +1,28 @@
+{
+    "name": "clemquinones/webfleetconnect",
+    "type": "library",
+    "description": "API For TomTom Webfleet .Connect",
+    "homepage": "https://github.com/clemquinones/webfleetconnect",
+    "authors": [
+        {
+            "name": "Clem Quinones",
+            "email": "clemquinones@gmail.com"
+        }
+    ],
+    "require": {
+        "php" : "~5.5|~7.0",
+        "guzzlehttp/guzzle": "^6.2"
+    },
+    "autoload": {
+        "psr-4": {
+          "WenFleetConnect\\": "src"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+          "dev-master": "1.0-dev"
+        }
+    },
+    "license": "GPL-3.0",
+    "minimum-stability": "stable"
+}
